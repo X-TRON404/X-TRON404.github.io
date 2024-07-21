@@ -1,6 +1,6 @@
 ---
 title: "MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning"
-excerpt: "A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.<br/><img src='/images/maml-sr.png'>"
+excerpt: "A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.<br/><img src='/images/maml-sr.jpg'>"
 collection: portfolio
 ---
 

@@ -18,6 +18,19 @@ During my undergraduate years, I was an active member of [AeroMIT](https://www.a
 
 Feel free to explore my website to learn more about my [research](/research), [publications](/publications), and [projects](/projects).
 
+
+---
+permalink: /
+title: "About Me"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+[Your existing 'About Me' content here]
+
 ## Recent Publications
 
 <div class="publications">
@@ -33,7 +46,7 @@ Feel free to explore my website to learn more about my [research](/research), [p
   </div>
 
   <div class="publication">
-    <img src="/images/domain-adaptive.png" alt="Domain Adaptive Few-Shot" class="publication-image">
+    <img src="/images/domain-adaptive.jpg" alt="Domain Adaptive Few-Shot" class="publication-image">
     <div class="publication-content">
       <h3>Domain Adaptive Few-Shot Open-Set Learning</h3>
       <p><strong>Authors:</strong> Debabrata Pal, Deeptej More, Sai Bhargav, Dipesh Tamboli, Vaneet Aggarwal, Biplab Banerjee</p>
@@ -44,7 +57,7 @@ Feel free to explore my website to learn more about my [research](/research), [p
   </div>
 
   <div class="publication">
-    <img src="/images/panoptic-segmentation.png" alt="Panoptic Segmentation" class="publication-image">
+    <img src="/images/panoptic-segmentation.jpg" alt="Panoptic Segmentation" class="publication-image">
     <div class="publication-content">
       <h3>A panoptic segmentation dataset and deep-learning approach for explainable scoring of tumor-infiltrating lymphocytes</h3>
       <p><strong>Authors:</strong> Shangke Liu, Mohamed Amgad, Deeptej More, Muhammad A Rathore, Roberto Salgado, Lee AD Cooper</p>
