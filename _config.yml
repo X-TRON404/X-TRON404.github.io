@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             :
+  name             : " "
   avatar           : "bio-photo.png"
   bio              : "MS in AI @ Northwestern University"
   location         : "Evanston, IL"
