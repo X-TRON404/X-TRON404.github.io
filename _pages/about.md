@@ -16,27 +16,27 @@ Prior to my graduate studies, I completed my Bachelor of Technology in Mechatron
 
 During my undergraduate years, I was an active member of [AeroMIT](https://www.aeromit.in/), a multidisciplinary aerial robotics team at Manipal Institute of Technology. As part of this student project, I led efforts in applying deep learning techniques to autonomous UAVs.
 
-Feel free to explore my website to learn more about my [research](/publications).
+Feel free to explore my website to learn more about my research.
 
 
 ## Recent Publications
 
 <div class="publications">
   <div class="publication">
-    <img src="/images/maml-sr.png" alt="MAML-SR" class="publication-image">
+    <img src="/images/panoptic-segmentation.png" alt="Panoptic Segmentation" class="publication-image">
     <div class="publication-content">
-      <h3>MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</h3>
-      <p><strong>Authors:</strong> Debabrata Pal, Shirsha Bose, Deeptej More, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</p>
-      <p><strong>Publication Date:</strong> September 1, 2023</p>
-      <p><strong>Journal:</strong> Pattern Recognition Letters</p>
-      <p>A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.</p>
+      <h3><a href="https://www.nature.com/articles/s41523-024-00663-1" target="_blank">A panoptic segmentation dataset and deep-learning approach for explainable scoring of tumor-infiltrating lymphocytes</a></h3>
+      <p><strong>Authors:</strong> Shangke Liu, Mohamed Amgad, Deeptej More, Muhammad A Rathore, Roberto Salgado, Lee AD Cooper</p>
+      <p><strong>Publication Date:</strong> June 28, 2024</p>
+      <p><strong>Journal:</strong> npj Breast Cancer</p>
+      <p>Development of a deep-learning approach for panoptic segmentation and scoring of tumor-infiltrating lymphocytes in breast cancer.</p>
     </div>
   </div>
-
+  
   <div class="publication">
     <img src="/images/domain-adaptive.png" alt="Domain Adaptive Few-Shot" class="publication-image">
     <div class="publication-content">
-      <h3>Domain Adaptive Few-Shot Open-Set Learning</h3>
+      <h3><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Pal_Domain_Adaptive_Few-Shot_Open-Set_Learning_ICCV_2023_paper.pdf" target="_blank">Domain Adaptive Few-Shot Open-Set Learning</a></h3>
       <p><strong>Authors:</strong> Debabrata Pal, Deeptej More, Sai Bhargav, Dipesh Tamboli, Vaneet Aggarwal, Biplab Banerjee</p>
       <p><strong>Publication Date:</strong> October 1, 2023</p>
       <p><strong>Conference:</strong> ICCV 2023</p>
@@ -44,16 +44,17 @@ Feel free to explore my website to learn more about my [research](/publications)
     </div>
   </div>
 
+  
   <div class="publication">
-    <img src="/images/panoptic-segmentation.png" alt="Panoptic Segmentation" class="publication-image">
+    <img src="/images/maml-sr.png" alt="MAML-SR" class="publication-image">
     <div class="publication-content">
-      <h3>A panoptic segmentation dataset and deep-learning approach for explainable scoring of tumor-infiltrating lymphocytes</h3>
-      <p><strong>Authors:</strong> Shangke Liu, Mohamed Amgad, Deeptej More, Muhammad A Rathore, Roberto Salgado, Lee AD Cooper</p>
-      <p><strong>Publication Date:</strong> June 28, 2024</p>
-      <p><strong>Journal:</strong> npj Breast Cancer</p>
-      <p>Development of a deep-learning approach for panoptic segmentation and scoring of tumor-infiltrating lymphocytes in breast cancer.</p>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0167865523002246" target="_blank">MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</a></h3>
+      <p><strong>Authors:</strong> Debabrata Pal, Shirsha Bose, Deeptej More, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</p>
+      <p><strong>Publication Date:</strong> September 1, 2023</p>
+      <p><strong>Journal:</strong> Pattern Recognition Letters</p>
+      <p>A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.</p>
     </div>
   </div>
 </div>
 
-<a href="/publications/" class="btn btn--primary">View All Publications</a>
+<!-- <a href="/publications/" class="btn btn--primary">View All Publications</a> -->
