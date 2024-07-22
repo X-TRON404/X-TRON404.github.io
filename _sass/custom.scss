@@ -29,3 +29,25 @@ a, a:hover, a:active, a:focus {
   transition: none !important;
 }
 
+.publication-header {
+  margin-bottom: 10px; /* Adjust as needed for space below this group */
+}
+
+.publication-header h3 {
+  margin-bottom: 0;
+  line-height: 1.2; /* Adjust as needed */
+}
+
+.publication-header p {
+  margin: 0;
+  line-height: 1.2; /* Adjust as needed */
+}
+
+.publication-info {
+  font-style: italic;
+  color: #666; /* Adjust color as needed */
+}
+
+.authors {
+  font-size: 0.9em; /* Slightly smaller font for authors, adjust as needed */
+}
