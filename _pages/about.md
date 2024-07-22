@@ -23,7 +23,7 @@ Feel free to explore my website to learn more about my [research](/publications)
 
 <div class="publications">
   <div class="publication">
-    <img src="/images/maml-sr.jpg" alt="MAML-SR" class="publication-image">
+    <img src="/images/maml-sr.png" alt="MAML-SR" class="publication-image">
     <div class="publication-content">
       <h3>MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</h3>
       <p><strong>Authors:</strong> Debabrata Pal, Shirsha Bose, Deeptej More, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</p>
