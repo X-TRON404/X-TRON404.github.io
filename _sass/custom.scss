@@ -23,31 +23,20 @@
   margin: 0.2em 0; /* Reduce space between paragraphs */
 }
 
-a, 
-a:link, 
-a:visited, 
-a:active, 
-a:focus {
-    color: #0695ef !important; /* Standard link blue color */
+.page__content a,
+.page__content a:hover,
+.page__content a:focus,
+.page__content a:active {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
     text-decoration: none !important;
-    transition: none !important;
-}
-
-a:hover {
-    color: #0695ef !important; /* Keep the same color on hover */
-    text-decoration: underline !important;
-    transition: none !important;
-    transform: none !important;
     font-size: inherit !important;
+    color: #0000EE !important; /* or your preferred link color */
 }
 
-/* Target any potential hover effects */
-*:hover {
-    transition: none !important;
-    transform: none !important;
-}
-
-a:hover {
+.page__content a:hover {
     text-decoration: underline !important;
 }
 
@@ -66,11 +55,13 @@ a:hover {
 }
 
 .publication-info {
-  font-style: italic;
-  font-size: smaller;
-  color: #666; /* Adjust color as needed */
+  font-style: italic !important;
+  font-size: 0.9em !important; /* Using em instead of smaller for more control */
+  color: #666 !important;
+  line-height: 1.2 !important; /* Adjust as needed for tighter spacing */
 }
 
-.publication-info .authors {
-  font-size: smaller; /* Slightly smaller font for authors, adjust as needed */
+.authors {
+  font-size: 0.9em !important; /* Using em instead of smaller */
+  line-height: 1.2 !important; /* Adjust as needed for tighter spacing */
 }
