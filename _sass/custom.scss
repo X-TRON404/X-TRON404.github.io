@@ -1,21 +1,25 @@
-.publications {
-  .publication {
-    display: flex;
-    margin-bottom: 2em;
-    
-    .publication-image {
-      width: 200px;
-      height: auto;
-      margin-right: 1em;
-      object-fit: cover;
-    }
-    
-    .publication-content {
-      flex: 1;
-      
-      h3 {
-        margin-top: 0;
-      }
-    }
-  }
+.publication {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1em; /* Reduced from 2em to bring items closer */
 }
+
+.publication-image {
+  width: 200px;
+  max-height: 150px;
+  object-fit: contain;
+  margin-right: 1em;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-content h3 {
+  margin-bottom: 0.2em; /* Reduce space between title and venue/date */
+}
+
+.publication-content p {
+  margin: 0.2em 0; /* Reduce space between paragraphs */
+}
+
