@@ -16,6 +16,8 @@ I completed my Bachelor of Technology in Mechatronics Engineering with a minor i
 
 In my free time, I also like to contribute to [HistomicsTK](https://github.com/DigitalSlideArchive/HistomicsTK) and analyze learned embedding spaces of language models.
 
+If you'd like to chat, please feel free to reach out at deeptej[at]u.northwestern.edu
+
 ## Recent Publications
 
 <div class="publications">
