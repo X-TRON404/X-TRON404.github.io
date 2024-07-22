@@ -26,7 +26,7 @@ If you'd like to chat, please feel free to reach out at deeptej[at]u.northwester
     <div class="publication-content">
       <div class="publication-header">
         <h3><a href="https://www.nature.com/articles/s41523-024-00663-1" target="_blank">A panoptic segmentation dataset and deep-learning approach for explainable scoring of tumor-infiltrating lymphocytes</a></h3>
-        <p class="publication-info">npj Breast Cancer, June 28, 2024</p>
+        <p class="publication-info">npj Breast Cancer, June 2024</p>
         <p class="authors">Shangke Liu, Mohamed Amgad, <strong>Deeptej More</strong>, Muhammad A Rathore, Roberto Salgado, Lee AD Cooper</p>
       </div>
       <p>A deep-learning approach for panoptic segmentation and scoring of tumor-infiltrating lymphocytes in breast cancer.</p>
@@ -38,7 +38,7 @@ If you'd like to chat, please feel free to reach out at deeptej[at]u.northwester
     <div class="publication-content">
       <div class="publication-header">
         <h3><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Pal_Domain_Adaptive_Few-Shot_Open-Set_Learning_ICCV_2023_paper.pdf" target="_blank">Domain Adaptive Few-Shot Open-Set Learning</a></h3>
-        <p class="publication-info">ICCV 2023, October 1, 2023</p>
+        <p class="publication-info">ICCV 2023, October 2023</p>
         <p class="authors">Debabrata Pal, <strong>Deeptej More</strong>, Sai Bhargav, Dipesh Tamboli, Vaneet Aggarwal, Biplab Banerjee</p>
       </div>
       <p>A Meta-Learning based framework powered by Generative Adversarial Networks for recognizing unknown samples from novel classes in target query sets.</p>
@@ -50,7 +50,7 @@ If you'd like to chat, please feel free to reach out at deeptej[at]u.northwester
     <div class="publication-content">
       <div class="publication-header">
         <h3><a href="https://www.sciencedirect.com/science/article/pii/S0167865523002246" target="_blank">MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</a></h3>
-        <p class="publication-info">Pattern Recognition Letters, September 1, 2023</p>
+        <p class="publication-info">Pattern Recognition Letters, September 2023</p>
         <p class="authors">Debabrata Pal, Shirsha Bose, <strong>Deeptej More</strong>, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</p>
       </div>
       <p>A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.</p>
