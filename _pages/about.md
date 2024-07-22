@@ -39,7 +39,7 @@ Feel free to explore my website to learn more about my [research](/publications)
       <h3>Domain Adaptive Few-Shot Open-Set Learning</h3>
       <p><strong>Authors:</strong> Debabrata Pal, Deeptej More, Sai Bhargav, Dipesh Tamboli, Vaneet Aggarwal, Biplab Banerjee</p>
       <p><strong>Publication Date:</strong> October 1, 2023</p>
-      <p><strong>Conference:</strong>ICCV 2023</p>
+      <p><strong>Conference:</strong> ICCV 2023</p>
       <p>A Meta-Learning based framework powered by Generative Adversarial Networks for recognizing unknown samples from novel classes in target query sets.</p>
     </div>
   </div>
