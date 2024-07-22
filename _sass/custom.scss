@@ -26,22 +26,25 @@
 a, 
 a:link, 
 a:visited, 
-a:hover, 
 a:active, 
 a:focus {
-    font-size: inherit !important;
-    transform: none !important;
-    transition: none !important;
+    color: #0695ef !important; /* Standard link blue color */
     text-decoration: none !important;
-    color: inherit !important;
-    background: none !important;
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-    -webkit-transform: none !important;
-    -moz-transform: none !important;
-    -ms-transform: none !important;
-    -o-transform: none !important;
+    transition: none !important;
+}
+
+a:hover {
+    color: #0695ef !important; /* Keep the same color on hover */
+    text-decoration: underline !important;
+    transition: none !important;
+    transform: none !important;
+    font-size: inherit !important;
+}
+
+/* Target any potential hover effects */
+*:hover {
+    transition: none !important;
+    transform: none !important;
 }
 
 a:hover {
