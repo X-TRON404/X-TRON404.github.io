@@ -49,8 +49,8 @@ In my free time, I also like to make contributions to [HistomicsTK](https://gith
       <div class="publication-header">
         <h3><a href="https://www.sciencedirect.com/science/article/pii/S0167865523002246" target="_blank">MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</a></h3>
         <p class="publication-info">Pattern Recognition Letters, September 1, 2023</p>
-      </div>
         <p class="authors">Debabrata Pal, Shirsha Bose, <strong>Deeptej More</strong>, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</p>
+      </div>
       <p>A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.</p>
     </div>
   </div>
