@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Artificial Intelligence at Northwestern University, graduating December 2024. My research interests include Self-supervised, Unsupervised and Weakly supervised approaches for computer vision tasks.
+I am a Master's student in Artificial Intelligence at Northwestern University, graduating December 2024. My research interests include self-supervised, unsupervised and weakly supervised approaches for computer vision tasks.
 
 This summer, I'm working as a visiting graduate student at Johns Hopkins University under [Prof. Alan Yuille](https://www.cs.jhu.edu/~ayuille/) at the [Computational Cognition, Vision, and Learning (CCVL) lab](https://ccvl.jhu.edu/), working on hyperbolic deep learning in computer vision. At Northwestern, I am a Research Assistant under [Prof. Lee A. Cooper](https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/cooper-lee.html) at the [Computational and Integrative Pathology Group](https://www.pathdata.io/), focusing on panoptic segmentation of histopathological images.
 
