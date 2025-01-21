@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Master's student in Artificial Intelligence at Northwestern University, graduating in December 2024. My primary research area is computer vision, with a keen interest in multimodal research. I focus on developing robust and generalizable representations for computer vision and adjacent modalities, including but not limited to self-supervised learning, representation learning, unsupervised learning, and meta-learning.
+I graduated with a Master's degree in Artificial Intelligence from Northwestern University in December 2024. My primary research area is computer vision, with a keen interest in multimodal research. I focus on developing robust and generalizable representations for computer vision and adjacent modalities, including but not limited to self-supervised learning, representation learning, unsupervised learning, and meta-learning.
 
-This past summer, I worked as a visiting graduate student at Johns Hopkins University under [Prof. Alan Yuille](https://www.cs.jhu.edu/~ayuille/) at the [Computational Cognition, Vision, and Learning (CCVL) lab](https://ccvl.jhu.edu/), working on hyperbolic deep learning in computer vision. At Northwestern, I am a Research Assistant under [Prof. Lee A. Cooper](https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/cooper-lee.html) at the [Computational and Integrative Pathology Group](https://www.pathdata.io/), focusing on panoptic segmentation of histopathological images.
+In the summer of 2024, I worked as a visiting graduate student at Johns Hopkins University under [Prof. Alan Yuille](https://www.cs.jhu.edu/~ayuille/) at the [Computational Cognition, Vision, and Learning (CCVL) lab](https://ccvl.jhu.edu/), working on hyperbolic deep learning in computer vision. At Northwestern, I am a Research Assistant under [Prof. Lee A. Cooper](https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/cooper-lee.html) at the [Computational and Integrative Pathology Group](https://www.pathdata.io/), focusing on panoptic segmentation of histopathological images.
 
 I completed my Bachelor of Technology in Mechatronics Engineering with a minor in Computing from Manipal Institute of Technology, India. During my bachelor's, I worked with [Prof. Biplab Banerjee](https://biplab-banerjee.github.io/) at the Indian Institute of Technology - Bombay on meta learning for super resolution and domain adaptive few shot learning. I was also an active member of [AeroMIT](https://www.aeromit.in/), a multidisciplinary aerial robotics team at Manipal Institute of Technology, where I led the Autonomous Drone Research subsystem.
 
-In addition to my research, I am actively working on Multi-Agent Systems. In my free time, I also like to contribute to [HistomicsTK](https://github.com/DigitalSlideArchive/HistomicsTK) and analyze learned embedding spaces of language models.
+Currently, I am actively working on Multi-Agent Systems at [CAMEL-AI](https://www.camel-ai.org/). In my free time, I write for [The Batch](https://www.deeplearning.ai/the-batch/tag/research/) by deeplearning.ai.
 
 If you'd like to chat, please feel free to reach out at deeptej[at]u.northwestern.edu
 
