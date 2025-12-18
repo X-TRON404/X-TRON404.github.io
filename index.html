@@ -58,11 +58,26 @@
             border-bottom: 1px solid var(--border);
         }
 
+        .header-top {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+            margin-bottom: 1rem;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 8px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
         .name {
             font-size: 2.5rem;
             font-weight: 600;
             letter-spacing: -0.02em;
-            margin-bottom: 0.5rem;
+            margin: 0;
         }
 
         .title {
@@ -123,11 +138,33 @@
 
         /* Publications */
         .publication {
+            display: flex;
+            gap: 1.25rem;
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 8px;
             padding: 1.5rem;
             margin-bottom: 1rem;
+            color: inherit;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .pub-image {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .pub-content {
+            flex: 1;
+        }
+
+        .publication:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            opacity: 1;
         }
 
         .publication:last-child {
@@ -193,13 +230,28 @@
 
         /* Responsive */
         @media (max-width: 600px) {
+            .header-top {
+                flex-direction: column;
+                text-align: center;
+            }
+
             .name {
                 font-size: 2rem;
             }
 
             .meta {
-                flex-direction: column;
+                justify-content: center;
+                flex-wrap: wrap;
                 gap: 0.5rem;
+            }
+
+            .publication {
+                flex-direction: column;
+            }
+
+            .pub-image {
+                width: 100%;
+                height: 140px;
             }
 
             section {
@@ -211,23 +263,25 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="name">Deeptej More</h1>
-            <p class="title">MS in Artificial Intelligence @ Northwestern University</p>
+            <div class="header-top">
+                <img src="images/bio-photo.png" alt="Deeptej More" class="profile-photo">
+                <h1 class="name">Deeptej More</h1>
+            </div>
             <div class="meta">
                 <span class="meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    Evanston, IL
+                    San Francisco, CA
                 </span>
-                <a href="mailto:deeptej@u.northwestern.edu" class="meta-item">
+                <a href="mailto:deeptej@deeptej.com" class="meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
                     Email
                 </a>
-                <a href="https://linkedin.com/in/deeptejmore" target="_blank" class="meta-item">
+                <a href="https://linkedin.com/in/deeptej-more/" target="_blank" class="meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                     </svg>
@@ -239,7 +293,7 @@
                     </svg>
                     GitHub
                 </a>
-                <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank" class="meta-item">
+                <a href="https://scholar.google.com/citations?user=832wwzEAAAAJ&hl=en" target="_blank" class="meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
                     </svg>
@@ -250,44 +304,51 @@
 
         <section id="about">
             <h2>About</h2>
-            <p>I graduated with a Master's degree in Artificial Intelligence from Northwestern University in December 2024. My primary research area is computer vision, with a keen interest in multimodal research. I focus on developing robust and generalizable representations for computer vision and adjacent modalities, including but not limited to self-supervised learning, representation learning, unsupervised learning, and meta-learning.</p>
+            <p>I'm Deeptej. I work at <strong>Deepnight</strong> on Deep Learning for night vision. Previously, I was a founding machine learning engineer at <strong>tessel.ai</strong>, where I worked on mechanistic interpretability for pathology foundation models and style transfer for stained tissue images.</p>
+
+            <p>I graduated with a Master's in AI from <strong>Northwestern University</strong>. During my master's, I was a research assistant under <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/cooper-lee.html" target="_blank">Prof. Lee A. Cooper</a> at the <a href="https://www.pathdata.io/" target="_blank">Computational and Integrative Pathology Group</a>, working on panoptic segmentation of histopathological images. I was also a visiting graduate student at <strong>Johns Hopkins</strong> under <a href="https://www.cs.jhu.edu/~ayuille/" target="_blank">Prof. Alan Yuille</a> at the <a href="https://ccvl.jhu.edu/" target="_blank">CCVL lab</a>, working on hyperbolic deep learning.</p>
             
-            <p>In the summer of 2024, I worked as a visiting graduate student at Johns Hopkins University under Prof. Alan Yuille at the Computational Cognition, Vision, and Learning (CCVL) lab, working on hyperbolic deep learning in computer vision. At Northwestern, I am a Research Assistant under Prof. Lee A. Cooper at the Computational and Integrative Pathology Group, focusing on panoptic segmentation of histopathological images.</p>
-            
-            <p>I completed my Bachelor of Technology in Mechatronics Engineering with a minor in Computing from Manipal Institute of Technology, India. During my bachelor's, I worked with Prof. Biplab Banerjee at the Indian Institute of Technology - Bombay on meta learning for super resolution and domain adaptive few shot learning. I was also an active member of AeroMIT, a multidisciplinary aerial robotics team at Manipal Institute of Technology, where I led the Autonomous Drone Research subsystem.</p>
-            
-            <p>Currently, I am actively working on Multi-Agent Systems at CAMEL-AI. In my free time, I write for The Batch by deeplearning.ai.</p>
+            <p>I did my Bachelor's in Mechatronics from <strong>Manipal Institute of Technology</strong>, India. During undergrad, I worked with <a href="https://biplab-banerjee.github.io/" target="_blank">Prof. Biplab Banerjee</a> at <strong>IIT Bombay</strong> on meta-learning for super-resolution and domain-adaptive few-shot learning. I also led the Autonomous Drone Research subsystem at <a href="https://www.aeromit.in/" target="_blank">AeroMIT</a>.</p>
         </section>
 
         <section id="publications">
             <h2>Recent Publications</h2>
             
-            <div class="publication">
-                <div class="pub-venue">npj Breast Cancer · June 2024</div>
-                <div class="pub-title">A panoptic segmentation dataset and deep-learning approach for explainable scoring of tumor-infiltrating lymphocytes</div>
-                <div class="pub-authors">Shangke Liu, Mohamed Amgad, <strong>Deeptej More</strong>, Muhammad A Rathore, Roberto Salgado, Lee AD Cooper</div>
-                <p class="pub-desc">A deep-learning approach for panoptic segmentation and scoring of tumor-infiltrating lymphocytes in breast cancer.</p>
-            </div>
+            <a href="https://www.nature.com/articles/s41523-024-00663-1" target="_blank" class="publication">
+                <img src="images/panoptic-segmentation.png" alt="Panoptic Segmentation" class="pub-image">
+                <div class="pub-content">
+                    <div class="pub-venue">npj Breast Cancer · June 2024</div>
+                    <div class="pub-title">A panoptic segmentation dataset and deep-learning approach for explainable scoring of tumor-infiltrating lymphocytes</div>
+                    <div class="pub-authors">Shangke Liu, Mohamed Amgad, <strong>Deeptej More</strong>, Muhammad A Rathore, Roberto Salgado, Lee AD Cooper</div>
+                    <p class="pub-desc">PanopTILs is an open dataset with joint region and nucleus annotations designed specifically for computational TIL assessment.</p>
+                </div>
+            </a>
 
-            <div class="publication">
-                <div class="pub-venue">ICCV 2023 · October 2023</div>
-                <div class="pub-title">Domain Adaptive Few-Shot Open-Set Learning</div>
-                <div class="pub-authors">Debabrata Pal, <strong>Deeptej More</strong>, Sai Bhargav, Dipesh Tamboli, Vaneet Aggarwal, Biplab Banerjee</div>
-                <p class="pub-desc">A Meta-Learning based framework powered by Generative Adversarial Networks for recognizing unknown samples from novel classes in target query sets.</p>
-            </div>
+            <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Pal_Domain_Adaptive_Few-Shot_Open-Set_Learning_ICCV_2023_paper.pdf" target="_blank" class="publication">
+                <img src="images/domain-adaptive.png" alt="Domain Adaptive Few-Shot" class="pub-image">
+                <div class="pub-content">
+                    <div class="pub-venue">ICCV 2023 · October 2023</div>
+                    <div class="pub-title">Domain Adaptive Few-Shot Open-Set Learning</div>
+                    <div class="pub-authors">Debabrata Pal, <strong>Deeptej More</strong>, Sai Bhargav, Dipesh Tamboli, Vaneet Aggarwal, Biplab Banerjee</div>
+                    <p class="pub-desc">A setting that combines three difficulties at once: domain shift, few shot learning in the target domain, and open set recognition at test time.</p>
+                </div>
+            </a>
 
-            <div class="publication">
-                <div class="pub-venue">Pattern Recognition Letters · September 2023</div>
-                <div class="pub-title">MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</div>
-                <div class="pub-authors">Debabrata Pal, Shirsha Bose, <strong>Deeptej More</strong>, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</div>
-                <p class="pub-desc">A Meta-Learning based multi-scale framework to solve the problem of insufficient adaptability of deep-learning-based super-resolution methods to novel blur kernel scenarios.</p>
-            </div>
+            <a href="https://www.sciencedirect.com/science/article/pii/S0167865523002246" target="_blank" class="publication">
+                <img src="images/maml-sr.png" alt="MAML-SR" class="pub-image">
+                <div class="pub-content">
+                    <div class="pub-venue">Pattern Recognition Letters · September 2023</div>
+                    <div class="pub-title">MAML-SR: Self-adaptive super-resolution networks via multi-scale optimized attention-aware meta-learning</div>
+                    <div class="pub-authors">Debabrata Pal, Shirsha Bose, <strong>Deeptej More</strong>, Ankit Jha, Biplab Banerjee, Yogananda Jeppu</div>
+                    <p class="pub-desc">A meta learning SR approach aimed at test time adaptation to novel blur kernels using internal patch recurrence from the input image.</p>
+                </div>
+            </a>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>If you'd like to chat, please feel free to reach out:</p>
-            <div class="contact-email">deeptej[at]u.northwestern.edu</div>
+            <div class="contact-email">deeptej@deeptej.com</div>
         </section>
     </div>
 
