@@ -65,6 +65,11 @@
             margin-bottom: 1rem;
         }
 
+        .header-text {
+            display: flex;
+            flex-direction: column;
+        }
+
         .profile-photo {
             width: 120px;
             height: 120px;
@@ -78,6 +83,12 @@
             font-weight: 600;
             letter-spacing: -0.02em;
             margin: 0;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-dim);
+            margin: 0.25rem 0 0 0;
         }
 
         .title {
@@ -265,7 +276,10 @@
         <header>
             <div class="header-top">
                 <img src="images/bio-photo.png" alt="Deeptej More" class="profile-photo">
-                <h1 class="name">Deeptej More</h1>
+                <div class="header-text">
+                    <h1 class="name">Deeptej More</h1>
+                    <p class="subtitle">Computer Vision/AI Researcher</p>
+                </div>
             </div>
             <div class="meta">
                 <span class="meta-item">
@@ -304,11 +318,11 @@
 
         <section id="about">
             <h2>About</h2>
-            <p>I'm Deeptej. I work at <strong>Deepnight</strong> on Deep Learning for night vision. Previously, I was a founding machine learning engineer at <strong>tessel.ai</strong>, where I worked on mechanistic interpretability for pathology foundation models and style transfer for stained tissue images.</p>
+            <p>I'm Deeptej. I work at Deepnight on Deep Learning for night vision. Previously, I was a founding machine learning engineer at tessel.ai, where I worked on mechanistic interpretability for pathology foundation models and style transfer for stained tissue images.</p>
 
-            <p>I graduated with a Master's in AI from <strong>Northwestern University</strong>. During my master's, I was a research assistant under <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/cooper-lee.html" target="_blank">Prof. Lee A. Cooper</a> at the <a href="https://www.pathdata.io/" target="_blank">Computational and Integrative Pathology Group</a>, working on panoptic segmentation of histopathological images. I was also a visiting graduate student at <strong>Johns Hopkins</strong> under <a href="https://www.cs.jhu.edu/~ayuille/" target="_blank">Prof. Alan Yuille</a> at the <a href="https://ccvl.jhu.edu/" target="_blank">CCVL lab</a>, working on hyperbolic deep learning.</p>
+            <p>I graduated with a Master's in AI from Northwestern University. During my master's, I was a research assistant under <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/cooper-lee.html" target="_blank">Prof. Lee A. Cooper</a> at the <a href="https://www.pathdata.io/" target="_blank">Computational and Integrative Pathology Group</a>, working on panoptic segmentation of histopathological images. I was also a visiting graduate student at Johns Hopkins under <a href="https://www.cs.jhu.edu/~ayuille/" target="_blank">Prof. Alan Yuille</a> at the <a href="https://ccvl.jhu.edu/" target="_blank">CCVL lab</a>, working on hyperbolic deep learning.</p>
             
-            <p>I did my Bachelor's in Mechatronics from <strong>Manipal Institute of Technology</strong>, India. During undergrad, I worked with <a href="https://biplab-banerjee.github.io/" target="_blank">Prof. Biplab Banerjee</a> at <strong>IIT Bombay</strong> on meta-learning for super-resolution and domain-adaptive few-shot learning. I also led the Autonomous Drone Research subsystem at <a href="https://www.aeromit.in/" target="_blank">AeroMIT</a>.</p>
+            <p>I did my Bachelor's in Mechatronics from Manipal Institute of Technology, India. During undergrad, I worked with <a href="https://biplab-banerjee.github.io/" target="_blank">Prof. Biplab Banerjee</a> at IIT Bombay on meta-learning for super-resolution and domain-adaptive few-shot learning. I also led the Autonomous Drone Research subsystem at <a href="https://www.aeromit.in/" target="_blank">AeroMIT</a>.</p>
         </section>
 
         <section id="publications">
